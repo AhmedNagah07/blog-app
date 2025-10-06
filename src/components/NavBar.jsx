@@ -93,7 +93,7 @@ export default function NavBar() {
             </button>
           </>
         ) : (
-          <Link to="/login" className="btn">
+          <Link to="/login" >
             <button className="btn btn-primary ">
               <svg
                 aria-label="Email icon"
